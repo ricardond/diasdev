@@ -1,0 +1,34 @@
+@media screen and (max-width:692px){
+    .web{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        margin-top: 200px;
+    }
+
+    .linha{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .linha hr{
+        transform: rotate(0deg);
+    }
+    .paragrafo{
+        width: 50%;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    section{
+        margin-top: 70px;
+    }
+
+    .redes{
+        bottom: -500px;
+    }
+
+    .imgPerfil{
+        margin-bottom: 15px;
+    }
+}
