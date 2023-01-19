@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
+    <script src="./js/menuResponsive.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Ricardo Dias</title>
@@ -15,11 +16,10 @@
         <a href="#">Dias Dev</a>
         <div class="menus">
             <a href="#">Home</a>
-            <a href="#projetos">Projects</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
+            <a href="#">Projects</a>
             <a href="#" class="button">Contact</a>
         </div>
+        <a class="icon" href="javascript:void(0);" onclick="myFunction()">&#9776;</a><!--Chama a função javascript no evento click do icon-->
     </header>
     <section class="web">
         <div class="text">
@@ -33,24 +33,24 @@
         </div>
     </section>
     <section class="arrow"><img src="./img/seta-para-baixo.png" alt=""></section>
-    <section id="about" class="about">
+    <section class="about">
         <h3 class="title">About Me</h3>
         <div class="linha">
+            <article class="redes">
+                <a href="https://www.instagram.com/ricardo.gif/" target="_blank"><img class="iconRedes" src="./img/iconInstagram.png" alt=""></a>
+                <a href="https://github.com/ricardond" target="_blank"><img class="iconRedes" src="./img/iconGithub.png" alt=""></a>
+                <a href="https://www.linkedin.com/in/ricardonunesdias/" target="_blank"><img class="iconRedes" src="./img/iconLikedin.png" alt=""></a>
+            </article>
             <div>
                 <img class="imgPerfil" src="./img/Ricardo.jpg" alt="">
             </div>
             <hr><p class="paragrafo">The long barrow was built on land previously inhabited in the Mesolithic period. It consisted of a sub-rectangular earthen tumulus, estimated to have been 15 metres (50 feet) in length, with a chamber built from sarsen megaliths on its eastern end.</p>
             
         </div>
-        <article class="redes">
-            <a href="https://www.instagram.com/ricardo.gif/" target="_blank"><img class="iconRedes" src="./img/iconInstagram.png" alt=""></a>
-            <a href="https://github.com/ricardond" target="_blank"><img class="iconRedes" src="./img/iconGithub.png" alt=""></a>
-            <a href="https://www.linkedin.com/in/ricardonunesdias/" target="_blank"><img class="iconRedes" src="./img/iconLikedin.png" alt=""></a>
-        </article>
     </section>
     <section class="sectionPro">
         <p class="title">Projects</p>
-        <div id="projetos" class="projects">
+        <div class="projects">
             <div class="card">
                 <img src="./img/sisgeina.png" alt="">
                 <p class="title">SISGEINA</p>
@@ -72,7 +72,7 @@
         <a href="#" class="button">SEE ALL PROJECTS</a>
     </section>
 
-    <section id="skills" class="SectionSkills">
+    <section class="SectionSkills">
         <p class="title">Skills</p>
         <div class="CardSkills">
             <div class="skill">

@@ -25,10 +25,38 @@
     }
 
     .redes{
-        bottom: -500px;
+        flex-direction: row;
     }
 
     .imgPerfil{
         margin-bottom: 15px;
+    }
+
+    header{
+        gap: 10px;
+        margin-top: 30px;
+    }
+    .menus{
+        display: none;
+    }
+
+    .icon{
+        position: absolute;
+        top: -20px;
+        right: 80px;
+        display: block;
+    }
+
+    .menus.responsive{
+        display: flex;
+        flex-direction: column;
+        margin-top: 14px;
+        gap: 20px;
+        padding: 25px;
+        background: #222525;
+    }
+    .menus a{
+        display: block;
+        padding: 10px;
     }
 }
