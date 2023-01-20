@@ -42,7 +42,11 @@ header a{
 }
 
 /*icone do menu*/
+.icon{
+    position: absolute;
+}
 .icon div{
+    display: none;
     width: 25px;
     height: 3px;
     background-color: #BDEBEA;
