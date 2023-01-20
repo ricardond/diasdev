@@ -32,13 +32,17 @@
         margin-bottom: 15px;
     }
 
-    header{
+    .menu{
+        background: #222525;
         flex-direction: column;
         gap: 10px;
         justify-content: flex-start;
-        background-color: #222525;
         align-items: flex-end;
         gap: 20px;
+    }
+
+    .menuFixo{
+        display: none;
     }
 
     .logan{
