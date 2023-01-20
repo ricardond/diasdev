@@ -32,10 +32,10 @@
         margin-bottom: 15px;
     }
 
-    .menu{
+    header{
         background: #222525;
         flex-direction: column;
-        gap: 10px;
+        height: 50px;
         justify-content: flex-start;
         align-items: flex-end;
         gap: 20px;
@@ -72,7 +72,7 @@
     }
     .menus a{
         display: block;
-        padding: 10px;
+        width: 100%;
     }
 
     .img img{
