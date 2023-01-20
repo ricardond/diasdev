@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="./js/menuResponsive.js"></script>
+    <script src="./js/menuBar.js"></script>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Ricardo Dias</title>
 </head>
 <body>
     <header class="menu">
-        <a class="logan" href="#"><p>Dias Dev</p></a>
+        <a class="logo href="#"><p>Dias Dev</p></a>
         <div class="menus">
             <a href="#">Home</a>
             <a href="#about">About</a>
@@ -21,7 +22,12 @@
             <a href="#skills">Skill</a>
             <a href="#" class="button">Contact</a>
         </div>
-        <a class="icon" href="javascript:void(0);" onclick="myFunction()">&#9776;</a><!--Chama a função javascript no evento click do icon-->
+        <div class="icon" onclick="changeMenuIcon()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+
     </header>
     <section class="web">
         <div class="text">
