@@ -13,12 +13,16 @@
     }
     .linha hr{
         transform: rotate(0deg);
+        display: none;
     }
     .paragrafo{
         width: 50%;
     }
     .projects{
         flex-direction: column;
+    }
+    .card{
+        width: 50%;
     }
     section{
         margin-top: 70px;
@@ -29,7 +33,7 @@
     }
 
     .imgPerfil{
-        margin-bottom: 15px;
+        margin-bottom: 19px;
     }
 
     header{
@@ -64,8 +68,10 @@
     .menus.responsive{
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        position: fixed;
+        margin-top: 40px;
         width: 200px;
+        height: 400px;
         padding: 10px;
         gap: 10px;
         background: #222525;
